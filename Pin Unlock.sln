@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32422.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pin Unlock.Android", "Pin Unlock\Pin Unlock.Android\Pin Unlock.Android.csproj", "{37E10D30-E25C-4110-A404-C122813A18A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pin Unlock", "Pin Unlock\Pin Unlock\Pin Unlock.csproj", "{9B9B4E01-07C7-4A72-B611-3C9FA44BF218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37E10D30-E25C-4110-A404-C122813A18A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E10D30-E25C-4110-A404-C122813A18A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E10D30-E25C-4110-A404-C122813A18A4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{37E10D30-E25C-4110-A404-C122813A18A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E10D30-E25C-4110-A404-C122813A18A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E10D30-E25C-4110-A404-C122813A18A4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9B9B4E01-07C7-4A72-B611-3C9FA44BF218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9B4E01-07C7-4A72-B611-3C9FA44BF218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9B4E01-07C7-4A72-B611-3C9FA44BF218}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9B9B4E01-07C7-4A72-B611-3C9FA44BF218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9B4E01-07C7-4A72-B611-3C9FA44BF218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9B4E01-07C7-4A72-B611-3C9FA44BF218}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E47DA0D6-8BD6-42E5-AE06-4D6E74774C2F}
+	EndGlobalSection
+EndGlobal

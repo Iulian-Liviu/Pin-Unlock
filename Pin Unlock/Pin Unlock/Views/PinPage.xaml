@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:PinView="clr-namespace:FormsPinView.Core;assembly=FormsPinView.Core"
+             xmlns:local="clr-namespace:Pin_Unlock.ViewModels"
+             x:Class="Pin_Unlock.Views.PinPage">
+
+    <ContentPage.BindingContext>
+        <local:PinPageViewModel></local:PinPageViewModel>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+
+            <Label
+                Text="🔐 Enter your PIN" 
+                HorizontalTextAlignment="Center"
+                TextColor="Black" />
+            <PinView:PinView
+                HorizontalOptions="Center"
+                ClearAfterSuccess="True"
+                Validator="{Binding ValidatorFunc}"
+                ErrorCommand="{Binding ErrorCommand}"
+                SuccessCommand="{Binding SuccessCommand}"
+                Color="Green"
+                BorderColor="Lime"
+                RippleColor="GreenYellow" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
