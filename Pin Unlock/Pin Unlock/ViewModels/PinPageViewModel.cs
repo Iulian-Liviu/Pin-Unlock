@@ -58,17 +58,15 @@ namespace Pin_Unlock.ViewModels
             // Modify this based on input (char) (think of some way to check)
             ValidatorFunc = (arg) =>
             {
-                    //TODO Find a way to check for a custom code
+                //TODO Find a way to check for a custom code
 
-                    
-                    for (int i = 0; i < arg.Count; ++i)
-                    {
-                        if (arg[i] != ('1' + i))
-                        {
-                            return false;
-                        }
-                    }
-                
+                var r = string.Join(string.Empty, arg);
+
+                if (r == code)
+                {
+                    return true;
+                }
+
                 //return false
                 return false;
             };
